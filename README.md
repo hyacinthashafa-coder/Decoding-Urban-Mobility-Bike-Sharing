@@ -9,4 +9,4 @@ pipenv install
 pipenv shell 
 pip install -r requirements.txt
 ### **Run Streamlit app**
-streamlit run dashboard.py
+streamlit run Streamlit_Bike_Sharing.py
