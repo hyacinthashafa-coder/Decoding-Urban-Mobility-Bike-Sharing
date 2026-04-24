@@ -18,7 +18,7 @@ sns.set_style("whitegrid")
 # 2. LOAD DATASET
 @st.cache_data
 def load_data():
-    main_data = pd.read_csv("main_data.csv")
+    main_data = pd.read_csv("dashboard/main_data.csv")
     main_data["dteday"] = pd.to_datetime(main_data["dteday"])
     
     # Tambahkan tipe hari
